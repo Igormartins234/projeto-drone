@@ -422,10 +422,7 @@ main {
     .info-contato h3 {
         font-size: 1.3rem;
     }
-    .video-fundo{
-        min-width: 80%;
-        min-height: 80%;
-        width: auto;
-        height: auto;
-    }
+     .video-fundo {
+    object-fit: contain; 
+  }
 }
